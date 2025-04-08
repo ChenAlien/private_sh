@@ -166,13 +166,13 @@ download() {
         is_ok=$is_core_ok
         ;;
     sh)
-        link=https://github.com/${is_sh_repo}/releases/latest/download/code.tar.gz
+        link=https://ghfast.top/github.com/${is_sh_repo}/releases/latest/download/code.tar.gz
         name="$is_core_name 脚本"
         tmpfile=$tmpsh
         is_ok=$is_sh_ok
         ;;
     jq)
-        link=https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-$is_arch
+        link=https://ghfast.top/github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-$is_arch
         name="jq"
         tmpfile=$tmpjq
         is_ok=$is_jq_ok
